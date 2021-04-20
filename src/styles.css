@@ -1,0 +1,79 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.list {
+  list-style-type: none;
+  padding: 0px;
+}
+.list li {
+  padding-bottom: 20px;
+}
+button {
+  background-color: #4c82af;
+  border: 1px solid #ccc;
+  padding: 10px 20px;
+  color: white;
+}
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+textarea {
+  width: 100%;
+}
+input[type="checkbox"] {
+  width: 15px;
+  height: 20px;
+  background-color: #4c82af;
+  color: white;
+  margin-right: 8px;
+  margin-top: 17px;
+}
+input[type="submit"] {
+  width: 100%;
+  background-color: #4c82af;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.checkbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  width: 700px;
+}
+li{
+  width: 500px;
+}
+li p {
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+.field_name{
+  font-weight: 600;
+}
